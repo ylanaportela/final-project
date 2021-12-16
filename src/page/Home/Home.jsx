@@ -1,7 +1,7 @@
 import Menu from "../../components/Menu/Menu"
+import Others from "../Others/Others"
+import Image from "../../assets/Internet.svg"
 import "./home.css"
-
-import Image from '../../assets/Internet.svg' 
 
 
 
@@ -50,6 +50,7 @@ const Home = () => {
                 </div>
 
             </section>
+            <Others />
 
         </>
     )
