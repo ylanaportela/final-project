@@ -1,11 +1,11 @@
 .container-others{
-    min-height: 100vh;
+    height: 100vh;
+    padding: 55px 2% 0px 2%;
     background-color: #ae8bf525;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
-    padding: 2%;
 }
 
 .container-others{
@@ -15,8 +15,9 @@
 .container-others h2{
     font-size: 26px;
 }
+
 .posts{
-    height: 85%;
+    max-height: 70vh;
     /* background-color: whitesmoke; */
     display: flex;
     flex-wrap: wrap;

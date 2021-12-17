@@ -24,7 +24,7 @@ const Others = () => {
 
     return(
 
-        <section className="container-others">
+        <section className="container-others" id='others'>
 
             <div className="title-others">
                 <h2>Outras Publicações</h2>

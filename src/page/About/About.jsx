@@ -5,15 +5,21 @@ import "./about.css"
 const About = () => {
     return (
         <>
-            <section className="container-about">
-                <div className="about-me">
-                    <div className="about-title">
+            <section className="container-about"  id="sobre">
+            <div className="about-title">
                         <h2>Sobre Mim</h2>
                     </div>
+                <div className="about-me">
+                   
                     <div className="about-text">
-                        <p>Me chamo Ylana, tenho 21 anos, moro em Feira de Santana, na Bahia. Faço a graduação de Licenciatura em História na UEFS, recentemente eu me voltei a pesquisar mais sobre tecnologia, entender a história da tecnologia e saber como simples peças conectadas formam um computador despertaram a minha curiosidade, ao me aprofundar nesses estudos conheci o mundo da programação fazendo uma oficina de Python na minha universidade, desde então tenho me voltado cada vez mais ao Desenvolvimento de Software, porém focando mais na Web.<br></br>
 
-                        Me fascino cada vez mais por tecnologia, de quantas coisas novas podem ser criadas do 0 e como isso influencia ativamente na vida de outras pessoas, meu objetivo atual é dar continuidade aos meus estudos e ingressar no mercado de trabalho em front-end. </p>
+                        <h3>"Hello World!!"</h3>
+                        <p>Me chamo Ylana, tenho 21 anos, moro em Feira de Santana, Bahia. Faço Licenciatura em História na UEFS, recentemente eu me voltei a pesquisar mais sobre tecnologia.
+                        Sempre partir do ponto da história para compreender o mundo e com a tecnologia não foi diferente.
+                        Comecei a estudar programação 
+                        fazendo uma oficina de Python na minha universidade, desde então tenho me voltado cada vez mais ao Desenvolvimento de Software, porém focando mais na Web.</p>
+                        <p>
+                        Me fascino cada vez mais por tecnologia, de quantas coisas novas podem ser criadas do 0 e como isso influencia ativamente na vida de outras pessoas, meu objetivo atual é dar continuidade aos meus estudos e ingressar no mercado de trabalho e me especializar na área enquanto Desenvolvedora FrontEnd</p>
                     </div>
                     <div className="about-image">
                         <img src={ImageEu} alt="Minha foto" />
@@ -21,28 +27,28 @@ const About = () => {
                 </div>
 
                 <div className="social-medias">
-                    <a href="https://www.facebook.com/ylana.adorno/">
+                    <a href="https://www.facebook.com/ylana.adorno/" target= "_blank">
                         <div className="cards">
                             <FiFacebook size={50} color="#f2f2f2"/>
                             <p>Facebook</p>
                             <p>Ylana Adorno</p>
                         </div>
                     </a>
-                    <a href="https://www.linkedin.com/in/ylana-portela/">
+                    <a href="https://www.linkedin.com/in/ylana-portela/" target= "_blank">
                         <div className="cards">
                             <FiLinkedin size={50} color="#f2f2f2"/>
                             <p>Linkedin</p>
                             <p>Ylana Portela</p>
                         </div>
                     </a>
-                    <a href="https://www.instagram.com/_ylanaportela/">
+                    <a href="https://www.instagram.com/_ylanaportela/" target= "_blank">
                         <div className="cards">
                             <FiInstagram size={50} color="#f2f2f2"/>
                             <p>Instagram</p>
                             <p>@ylanaportela</p>
                         </div>
                     </a>
-                    <a href="https://github.com/ylanaportela">
+                    <a href="https://github.com/ylanaportela" target= "_blank">
                         <div className="cards">
                             <FiGithub size={50} color="#f2f2f2"/>
                             <p>GitHub</p>

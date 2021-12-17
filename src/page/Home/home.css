@@ -1,5 +1,6 @@
 .container{
-    min-height: 100vh;
+    padding-top: 55px;
+    height: 100vh;
 }
 
 .box-home{
@@ -69,6 +70,12 @@
     text-align: center;
     cursor: pointer;
 }
+ .today-link a{
+    text-decoration: none;
+    color: #fdfdfd;
+ }
+
+
 
 @media (min-width: 1440px){
 

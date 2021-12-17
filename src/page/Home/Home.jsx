@@ -11,8 +11,8 @@ import Footer from "../../components/Footer/Footer"
 const Home = () => {
     return (
         <>
-            <section className="container home">
             <Menu />
+            <section className="container home" id="home">
 
                 <div className='box-home'>
 
@@ -61,9 +61,9 @@ const Home = () => {
                 </div>
 
             </section>
-            <Others id='others'/>
-            <NewsLetter  id='newsletter'/>
-            <About  id='about'/>
+            <Others/>
+            <NewsLetter />
+            <About/>
             <Footer />
 
         </>

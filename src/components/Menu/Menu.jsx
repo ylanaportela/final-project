@@ -1,23 +1,22 @@
-// import { Link } from "react-router-dom";
-import Link from "../Link";
 import './menu.css'
 import Logo from '../../assets/Logo.svg'
+
 
 
 const Menu = () =>{
     return(
         <ul className="menu">
             <li>
-                <Link to='/'><img src={Logo} className="logo" alt="logo" /></Link>
+                <a href="#home" className="item"><img src={Logo} className="logo" alt="logo" /></a>
             </li>
             <li>
-                <Link href="/others" className="item">Outros</Link>
+                <a href="#others" className="item">Outros</a>
             </li>
             <li>
-            <Link href="/newsletter" className="item">NewsLetter</Link>
+            <a href="#newsletter" className="item">NewsLetter</a>
             </li>
             <li>
-            <Link href="/about" className="item">Sobre</Link>
+            <a href="#sobre" className="item">Sobre</a>
             </li>
         </ul>
     )

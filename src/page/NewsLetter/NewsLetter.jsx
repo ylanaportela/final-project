@@ -22,7 +22,7 @@ const NewsLetter = () => {
     return (
 
         <>
-            <section className="container-newsletter">
+            <section className="container-newsletter"  id="newsletter">
                 <div className="newsletter-title">
                     <h2>NewsLetter</h2>
                     <p>Interassado em receber em primeira mão as novas publicação do TechLovers? <br /> Então, cadastre-se e receba as novidade na sua caixa de email!</p>
