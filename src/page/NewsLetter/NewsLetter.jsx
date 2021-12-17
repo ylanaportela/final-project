@@ -30,7 +30,7 @@ const NewsLetter = () => {
                 </div>
                 <div className="container-form">
                     <div className="newsletter-image">
-                        <img src={ImageNews} />
+                        <img src={ImageNews} alt="Inbox"/>
                     </div>
                     <form onSubmit={functionSubmit}>
                         <TextField

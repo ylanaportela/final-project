@@ -8,7 +8,7 @@ const Menu = () =>{
     return(
         <ul className="menu">
             <li>
-                <Link to='/'><img src={Logo} className="logo" /></Link>
+                <Link to='/'><img src={Logo} className="logo" alt="logo" /></Link>
             </li>
             <li>
                 <Link href="/others" className="item">Outros</Link>

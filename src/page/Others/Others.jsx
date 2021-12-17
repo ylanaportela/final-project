@@ -37,7 +37,7 @@ const Others = () => {
                 posts.map(post => 
                     <div key={post.id} className="post-card">
                         <div className="post-title">{post.title}</div>
-                        <img className="post-image" src={Computer} />
+                        <img className="post-image" src={Computer} alt="Computer" />
                     </div>
                 )}
             </div>

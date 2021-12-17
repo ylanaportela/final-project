@@ -34,7 +34,7 @@ const Home = () => {
                        
                     <div className="today-image" >
 
-                        <img src={Image}  />
+                        <img src={Image} alt="Global Map with Redes" />
 
                     </div>
 
@@ -51,7 +51,7 @@ const Home = () => {
                         </div>
 
                         <div className="today-link">
-                        <a>SAIBA MAIS</a>
+                        <a href="/">SAIBA MAIS</a>
                     </div>
                    
                     </div>

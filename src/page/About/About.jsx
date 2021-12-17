@@ -16,33 +16,33 @@ const About = () => {
                         Me fascino cada vez mais por tecnologia, de quantas coisas novas podem ser criadas do 0 e como isso influencia ativamente na vida de outras pessoas, meu objetivo atual é dar continuidade aos meus estudos e ingressar no mercado de trabalho em front-end. </p>
                     </div>
                     <div className="about-image">
-                        <img src={ImageEu} />
+                        <img src={ImageEu} alt="Minha foto" />
                     </div>
                 </div>
 
                 <div className="social-medias">
-                    <a>
+                    <a href="https://www.facebook.com/ylana.adorno/">
                         <div className="cards">
                             <FiFacebook size={50} color="#f2f2f2"/>
                             <p>Facebook</p>
                             <p>Ylana Adorno</p>
                         </div>
                     </a>
-                    <a>
+                    <a href="https://www.linkedin.com/in/ylana-portela/">
                         <div className="cards">
                             <FiLinkedin size={50} color="#f2f2f2"/>
                             <p>Linkedin</p>
                             <p>Ylana Portela</p>
                         </div>
                     </a>
-                    <a>
+                    <a href="https://www.instagram.com/_ylanaportela/">
                         <div className="cards">
                             <FiInstagram size={50} color="#f2f2f2"/>
                             <p>Instagram</p>
                             <p>@ylanaportela</p>
                         </div>
                     </a>
-                    <a>
+                    <a href="https://github.com/ylanaportela">
                         <div className="cards">
                             <FiGithub size={50} color="#f2f2f2"/>
                             <p>GitHub</p>
