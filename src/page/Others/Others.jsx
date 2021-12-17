@@ -13,7 +13,7 @@ const Others = () => {
 
         async function getDados(){
             // const response = await Axios.get('https://my-json-server.typicode.com/ylanaportela/final-project/posts')
-            const response = await Axios.get('http://localhost:5000/posts')
+            const response = await Axios.get('https://my-json-server.typicode.com/ylanaportela/final-project/posts')
             const data = response.data
             setPosts(data)
         }
