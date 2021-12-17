@@ -2,14 +2,17 @@ import Menu from "../../components/Menu/Menu"
 import Others from "../Others/Others"
 import Image from "../../assets/Internet.svg"
 import "./home.css"
+import NewsLetter from "../NewsLetter/NewsLetter"
+import About from "../About/About"
+import Footer from "../../components/Footer/Footer"
 
 
 
 const Home = () => {
     return (
         <>
-            <Menu />
             <section className="container home">
+            <Menu />
 
                 <div className='box-home'>
 
@@ -35,22 +38,33 @@ const Home = () => {
 
                     </div>
 
-                    <div className="today-title">
-                        <div>A História da Internet</div>
-                    </div>
-
                     <div className="today-text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu sapien bibendum, fermentum dui id, laoreet ex.a</p>
-                    </div>
 
-                    <div className="today-link">
+                        <div className="container-text"ca>
+                            <div className="today-title">
+                                <div>A História da Internet</div>
+                            </div>
+
+                            <div className="today-paragraph">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu sapien bibendum, fermentum dui id, laoreet ex.a</p>
+                            </div>
+                        </div>
+
+                        <div className="today-link">
                         <a>SAIBA MAIS</a>
                     </div>
+                   
+                    </div>
+
+                    
 
                 </div>
 
             </section>
-            <Others />
+            <Others id='others'/>
+            <NewsLetter  id='newsletter'/>
+            <About  id='about'/>
+            <Footer />
 
         </>
     )

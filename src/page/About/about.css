@@ -1,0 +1,62 @@
+.container-about{
+    min-height: 100vh;
+    background-color: #f2f2f2;
+    overflow: scroll d d t;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+
+.about-title h2{
+    color: #3f3d56;
+    font-size: 26px;
+    text-align: center;
+}
+
+.about-text p{
+    font-size: 16px;
+    text-align: center;
+}
+
+.about-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-me img{
+    border-radius: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.social-medias{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.cards{
+    max-width: 50%;
+    height: 19vh;
+    background-color: #3f3d5695;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #f2f2f2;
+}
+
+
+@media (min-width: 1440px){
+    .about-me{
+        flex-direction: row;
+    }
+}

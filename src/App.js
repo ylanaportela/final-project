@@ -1,10 +1,10 @@
-import Rota from './routes/Route';
 import './index.css'
+import Home from "./page/Home/Home"
 
 function App() {
   return (
     <div className="App">
-      <Rota />
+      <Home />
     </div>
   );
 }

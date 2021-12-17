@@ -1,6 +1,8 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import Link from "../Link";
 import './menu.css'
 import Logo from '../../assets/Logo.svg'
+
 
 const Menu = () =>{
     return(
@@ -9,16 +11,13 @@ const Menu = () =>{
                 <Link to='/'><img src={Logo} className="logo" /></Link>
             </li>
             <li>
-                <Link to='/others'>Outros</Link>
+                <Link href="/others" className="item">Outros</Link>
             </li>
             <li>
-                <Link to='/newspaper'>News Paper</Link>
+            <Link href="/newsletter" className="item">NewsLetter</Link>
             </li>
             <li>
-                <Link to='/about'>Sobre</Link>
-            </li>
-            <li>
-                <Link to='/contact'>Contato</Link>
+            <Link href="/about" className="item">Sobre</Link>
             </li>
         </ul>
     )
