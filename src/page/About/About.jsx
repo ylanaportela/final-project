@@ -27,28 +27,28 @@ const About = () => {
                 </div>
 
                 <div className="social-medias">
-                    <a href="https://www.facebook.com/ylana.adorno/" target= "_blank">
+                    <a href="https://www.facebook.com/ylana.adorno/" target= "_blank" rel="noreferrer">
                         <div className="cards">
                             <FiFacebook size={50} color="#f2f2f2"/>
                             <p>Facebook</p>
                             <p>Ylana Adorno</p>
                         </div>
                     </a>
-                    <a href="https://www.linkedin.com/in/ylana-portela/" target= "_blank">
+                    <a href="https://www.linkedin.com/in/ylana-portela/" target= "_blank" rel="noreferrer">
                         <div className="cards">
                             <FiLinkedin size={50} color="#f2f2f2"/>
                             <p>Linkedin</p>
                             <p>Ylana Portela</p>
                         </div>
                     </a>
-                    <a href="https://www.instagram.com/_ylanaportela/" target= "_blank">
+                    <a href="https://www.instagram.com/_ylanaportela/" target= "_blank" rel="noreferrer">
                         <div className="cards">
                             <FiInstagram size={50} color="#f2f2f2"/>
                             <p>Instagram</p>
                             <p>@ylanaportela</p>
                         </div>
                     </a>
-                    <a href="https://github.com/ylanaportela" target= "_blank">
+                    <a href="https://github.com/ylanaportela" target= "_blank" rel="noreferrer">
                         <div className="cards">
                             <FiGithub size={50} color="#f2f2f2"/>
                             <p>GitHub</p>
