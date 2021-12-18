@@ -3,50 +3,50 @@
     {
       "id": 1,
       "title": "A História da Computação",
-      "description": "Gostaria de saber a história por trás da computação?",
-      "image": 1
+      "description": "O caminho trilhado pelo computador ao longo da História",
+      "image": "https://i.imgur.com/DzJ3sm2.jpg"
     },
     {
       "id": 2,
-      "title": "A História dos Browsers",
-      "description": "Gostaria de saber a história por trás dos browsers?",
-      "image": 2
+      "title": "Guerra dos Browsers",
+      "description": "Você já ouviu falar sobre a Guerra dos Browsers? Não fique de fora dessa corrida",
+      "image": "https://i.imgur.com/JNmTcYg.png"
     },
     {
       "id": 3,
-      "title": "A História dos Browsers",
-      "description": "Gostaria de saber a história por trás dos browsers?",
-      "image": 2
+      "title": "História do JS",
+      "description": "Você sabe como chegamos a essa versão do JS? Java e JavaScript tem algo em comum? O que é ECMAScript",
+      "image": "https://i.imgur.com/6IIad4R.png"
     },
     {
       "id": 4,
-      "title": "A História dos Browsers",
-      "description": "Gostaria de saber a história por trás dos browsers?",
-      "image": 2
+      "title": "Mulheres em Tech",
+      "description": "Participação das mulheres na tecnologia",
+      "image": "https://i.imgur.com/eLI4hTm.png"
     },
     {
       "id": 5,
-      "title": "A História dos Browsers",
-      "description": "Gostaria de saber a história por trás dos browsers?",
-      "image": 2
-    },
-    {
-      "id": 5,
-      "title": "A História dos Browsers",
-      "description": "Gostaria de saber a história por trás dos browsers?",
-      "image": 2
+      "title": "Desenvolvimento Web",
+      "description": "Como chegamos ao Desenvolvimento Web como é hoje?",
+      "image": "https://i.imgur.com/iF9EPT9.png"
     },
     {
       "id": 6,
-      "title": "A História dos Browsers",
-      "description": "Gostaria de saber a história por trás dos browsers?",
-      "image": 2
+      "title": "GIT",
+      "description": "O que são os controles de versionamento? Como o GIT se tornou o que é hoje?",
+      "image": "https://i.imgur.com/SSO584f.png"
     },
     {
       "id": 7,
-      "title": "A História dos Browsers",
-      "description": "Gostaria de saber a história por trás dos browsers?",
-      "image": 2
+      "title": "Processadores",
+      "description": "Como se deu a evolução dos processadores ao logo dos anos?",
+      "image": "https://i.imgur.com/3dZGEme.jpg"
+    },
+    {
+      "id": 8,
+      "title": "A História da Internet",
+      "description": "O que é a Internet? O que são seus protocolos?",
+      "image": "https://i.imgur.com/YYwZczE.png"
     }
   ]
 }
