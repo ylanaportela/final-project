@@ -33,13 +33,13 @@
     align-items: center;
     background-color: #fdfdfd;
     border-radius: 8px;
+    padding: 1%;
 }
 
 .today-text{
     height: 35vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -48,7 +48,8 @@
 }
 
 .today-title{
-    font-size: 26px 
+    font-size: 26px;
+    margin-bottom: 20px;
 }
 
 .today-paragraph{

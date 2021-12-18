@@ -1,14 +1,34 @@
+import { useState, useEffect } from "react"
+import Axios from "axios"
+
 import Menu from "../../components/Menu/Menu"
 import Others from "../Others/Others"
-import Image from "../../assets/Internet.svg"
-import "./home.css"
 import NewsLetter from "../NewsLetter/NewsLetter"
 import About from "../About/About"
 import Footer from "../../components/Footer/Footer"
 
+import "./home.css"
+
 
 
 const Home = () => {
+
+    const [posts, setPosts] = useState([])
+
+    useEffect(() => {
+
+        async function getDados() {
+            // const response = await Axios.get(`http://localhost:5000/posts/${8}`)
+            const response = await Axios.get(`https://my-json-server.typicode.com/ylanaportela/final-project/posts/${8}`)
+            const data = response.data
+            setPosts(data)
+        }
+
+        getDados()
+
+    }, [])
+
+
     return (
         <>
             <Menu />
@@ -27,45 +47,44 @@ const Home = () => {
 
                 </div>
 
+                {
+                        <>
+                            <div className="news-body today">
 
-                <div className="news-body today">
 
-                    
-                       
-                    <div className="today-image" >
 
-                        <img src={Image} alt="Global Map with Redes" />
+                                <div className="today-image" >
 
-                    </div>
+                                    <img src={posts.image} alt={posts.title} />
 
-                    <div className="today-text">
+                                </div>
 
-                        <div className="container-text"ca>
-                            <div className="today-title">
-                                <div>A História da Internet</div>
+                                <div className="today-text">
+
+                                    <div className="container-text">
+                                        <div className="today-title">
+                                            <div>{posts.title}</div>
+                                        </div>
+
+                                        <div className="today-paragraph">
+                                            <p>{posts.description}</p>
+                                        </div>
+                                    </div>
+
+                                    <div className="today-link">
+                                        <a href="../Today/Today.jsx">SAIBA MAIS</a>
+                                    </div>
+
+                                </div>
                             </div>
-
-                            <div className="today-paragraph">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu sapien bibendum, fermentum dui id, laoreet ex.a</p>
-                            </div>
-                        </div>
-
-                        <div className="today-link">
-                        <a href="/">SAIBA MAIS</a>
-                    </div>
-                   
-                    </div>
-
-                    
-
-                </div>
+                        </>
+                    }
 
             </section>
-            <Others/>
+            <Others />
             <NewsLetter />
-            <About/>
+            <About />
             <Footer />
-
         </>
     )
 }

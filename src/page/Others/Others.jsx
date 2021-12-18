@@ -1,7 +1,5 @@
 import {useState, useEffect} from "react"
 import Axios from "axios"
-
-import Computer from  "../../assets/computer.svg"
 import "./others.css"
 
 
@@ -12,8 +10,9 @@ const Others = () => {
     useEffect (() => {
 
         async function getDados(){
-            // const response = await Axios.get('https://my-json-server.typicode.com/ylanaportela/final-project/posts')
+
             const response = await Axios.get('https://my-json-server.typicode.com/ylanaportela/final-project/posts')
+            
             const data = response.data
             setPosts(data)
         }
@@ -36,8 +35,12 @@ const Others = () => {
                 {
                 posts.map(post => 
                     <div key={post.id} className="post-card">
-                        <div className="post-title">{post.title}</div>
-                        <img className="post-image" src={Computer} alt="Computer" />
+                        <div className="post-text">
+                        <div className="post-title">{post.title }</div>
+                        <p>{post.description}</p>
+                        </div>
+                        
+                        <img className="post-image" src={post.image} alt={post.title}/>
                     </div>
                 )}
             </div>

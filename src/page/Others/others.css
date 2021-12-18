@@ -26,29 +26,46 @@
 }
 
 .post-card{
-    width: 80%;
+    max-height: 20%;
+    height: 20%;
     margin: 3%;
     min-height: 18%;
     display: flex;
-    justify-content: space-between;
-    border-radius: 8px;
+    justify-content: space-evenly;
+    border-radius: 12px;
     background-color: #fdfdfd;
     box-shadow: 0px 0px 10px 1px rgb(127 137 185 / 20%);
 }
 
+.post-text{
+    font-size: 13px;
+    text-align: center;
+    align-self: center;
+
+}
 .post-title{
     color: #3f3d56;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .post-image{
-    width: 30%;
+    width: 31%;
 }
 
+.post-image img{
+    max-height: 100%;
+}
 
 @media (min-width: 1440px){
     .post-card{
         width: 30%;
         cursor: pointer;
+    }
+
+    .post-text p{
+        font-size: 13px;
+        text-align: center;
     }
 
     .post-card:hover{
